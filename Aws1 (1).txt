@@ -1,0 +1,116 @@
+
+Aws day1
+
+cloud computing:--- cloud computing is the delivery of computing services including servers, 
+			storage , databeses ,networking, software, analytics etc..
+
+3 services 
+	
+	iaas ---- infrastructure as a service
+			networking
+			servers
+			storage
+			virtualisations
+	ex: aws ec2
+
+
+	paas ---- platform as a service
+			services of iaas + os
+					   middleware
+				           runtime
+	ex:- aws elastic bean
+
+
+	saas ---- software as service
+			iaas +paas 
+	ex:- google apps
+
+===============================================================
+
+vendors
+
+	aws
+	microsoft azure
+	gcp
+	ibm cloud
+==============================================================
+
+
+Aws   ---- 70% of total share
+	   s3 was its first service
+	   260+ services
+	   billing system
+	   no pre aggreement 
+	   regions(22+) availability zones(69+)
+		regions is group of availability zones
+		distance b/w 2 availability zones must be 200kms	
+	   free tier
+==============================================================
+Ec2-instance:-
+	EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure. 
+
+
+	The AWS Free Tier covers 750 cumulative hours of usage and 30 GB-months of storage per month.
+
+To launch a Windows EC2 instance that's covered by the AWS Free Tier, do the following:
+
+	1.Open the Amazon EC2 console.
+	2.In the Launch Instance section, choose Launch Instance.
+	3.In the navigation pane, select Free Tier only to limit the Amazon Machine Images (AMIs) to Free Tier eligible AMIs (labeled "Free tier eligible").
+	4.Choose Select next to a Windows AMI that's labeled "Free tier eligible."
+	5.Select an instance type that's labeled "Free tier eligible."
+	6.Choose Next: Configure Instance Details.
+	7.On the Configure Instance Details page, be sure that Instance Tenancy is set to Shared, and that Request Spot instances isn't selected. 
+		All other settings don't affect whether the instance's usage is covered by the Free Tier. You can configure other settings on this page as needed.
+	8.Choose Next: Add Storage.
+	9.Choose up to 30 GB of storage. Under Storage Type, choose either General Purpose SSD (GP2) or Magnetic.
+		Note: Currently, only 30 GB of Amazon Elastic Block Store (Amazon EBS) storage per account is covered under the Free Tier. 
+			Consider any storage that you allocated to other instances on your account when adding storage to your instance.
+	10.Choose Next: Add Tags.
+		Optionally, you can add a tag to your instance.
+	11.Choose Next: Configure Security Group.
+	12.Configure a security group that allows only trusted traffic in and out. For more information about configuring security groups,
+		 see Amazon EC2 security groups for Windows instances.
+	13.Choose Review and Launch.
+		Review your configuration. If it matches your specifications, choose Launch.
+
+==================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
